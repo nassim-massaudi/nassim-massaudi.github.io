@@ -21,7 +21,7 @@ repository               : "https://github.com/nassimmassaudi"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Nassim El Massaudi"
   pronouns         : "he/him"  
   bio              : "MSc. Student in Artificial Intelligence Interested in Scaling Neural Network and Optimization."
