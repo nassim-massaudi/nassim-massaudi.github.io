@@ -22,11 +22,11 @@ repository               : "https://github.com/nassimmassaudi"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Nassim El Massaudi"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "MSc. Student in Artificial Intelligence Interested in Scaling Neural Network and Optimization."
   location         : "Montréal, Canada"
-  employer         : "Red Brick University"
+  employer         : "Université de Montréal"
   uri              : # URL
   email            : "nassim.el.massaudi@umontreal.ca" 
 
