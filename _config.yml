@@ -12,7 +12,7 @@ title                    : "Nassim's Page"
 title_separator          : "-"
 name                     : &name "Nassim El Massaudi"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nassimmassaudi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/nassimmassaudi"
 
