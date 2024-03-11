@@ -31,13 +31,13 @@ Skills
 * Technologies: AWS, GCP, DVC, Git
 * Frameworks: JAX, Pytorch, Tensorflow
 
-Publications
+Selected Projects
 ======
 * Preventing Collapses in Non-Contrastive Self-Supervised Learning. [Link to project](https://github.com/nasselm4i/Deep-Theoretical/blob/main/Project%20Report%202023.pdf)
 * Performance Trade-Offs Between Model-Free and Model-Based Reinforcement Learning Methods. [Link to project](https://github.com/nasselm4i/RL-1/blob/main/IFT7201_Project.pdf)
 * Inductor Magnetic Energy Estimation Based on Multilayer Perceptron Regression Model. [Link to project](https://github.com/nasselm4i/ML-ulaval/blob/main/Inductor-project.pdf)
 
-Talks
+<!-- Talks
 ======
 * Detailed information about talks can be listed here.
 
@@ -47,4 +47,4 @@ Teaching
 
 Service and leadership
 ======
-* Mention any service and leadership roles you've held, such as committee memberships, club leadership, or community service.
+* Mention any service and leadership roles you've held, such as committee memberships, club leadership, or community service. -->
