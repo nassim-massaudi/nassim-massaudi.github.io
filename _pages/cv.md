@@ -33,9 +33,9 @@ Skills
 
 Selected Projects
 ======
-* Preventing Collapses in Non-Contrastive Self-Supervised Learning. [Link to project](http://nassimmassaudi.github.io/files/Preventing_Collapses_in_Non-Contrastive_SSL.pdf)
-* Performance Trade-Offs Between Model-Free and Model-Based Reinforcement Learning Methods. [Link to project](http://nassimmassaudi.github.io/files/Performance_Trade_Offs_Between_Model_Free_and_Model_Based_RL.pdf)
-* Inductor Magnetic Energy Estimation Based on Multilayer Perceptron Regression Model. [Link to project](http://nassimmassaudi.github.io/files/Inductor-project.pdf)
+* Preventing Collapses in Non-Contrastive Self-Supervised Learning. [Link to project](http://nassim-massaudi.github.io/files/Preventing_Collapses_in_Non-Contrastive_SSL.pdf)
+* Performance Trade-Offs Between Model-Free and Model-Based Reinforcement Learning Methods. [Link to project](http://nassim-massaudi.github.io/files/Performance_Trade_Offs_Between_Model_Free_and_Model_Based_RL.pdf)
+* Inductor Magnetic Energy Estimation Based on Multilayer Perceptron Regression Model. [Link to project](http://nassim-massaudi.github.io/files/Inductor-project.pdf)
 
 <!-- Talks
 ======
