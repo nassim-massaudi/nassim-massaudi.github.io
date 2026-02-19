@@ -9,10 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-<p align="center">
-  <a href="{{ base_path }}/files/CV-general.pdf" class="btn btn--info">Download CV</a>
-</p>
+[Download CV]({{ base_path }}/files/CV-general.pdf){: .btn .btn--info}
 
+<!-- markdownlint-disable MD033 -->
 <iframe src="{{ base_path }}/files/CV-general.pdf" width="100%" height="1000px">
     This browser does not support PDFs. Please download the PDF to view it: <a href="{{ base_path }}/files/CV-general.pdf">Download PDF</a>.
 </iframe>
+<!-- markdownlint-enable MD033 -->

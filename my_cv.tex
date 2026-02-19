@@ -1,0 +1,131 @@
+\documentclass[letterpaper,11pt]{article}
+
+% --- CORE PACKAGES ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+% --- LAYOUT ---
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+% --- SECTION FORMATTING ---
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% --- CUSTOM COMMANDS ---
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={$\cdot$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%----------- CV STARTS HERE ----------------
+%-------------------------------------------
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Nassim Massaudi} \\ \vspace{5pt}
+    \small Montreal, Canada $|$ \href{mailto:nassim.el.massaudi@umontreal.ca}{nassim.massaudi@gmail.com} $|$ +1 (438) 812-4500 \\
+    \textbf{AI Engineer \& Independent Researcher $|$ World Models $\cdot$ Optimal Control $\cdot$ Applied ML}
+\end{center}
+
+%----------- SUMMARY -----------
+\section*{Summary}
+AI Engineer and independent researcher exploring the intersection of World Models (JEPA approach) and Optimal Control — interested in systems that plan through learned physics models rather than pattern matching alone. Trained at Mila--Quebec AI Institute. Experienced in deploying production-grade RAG and forecasting systems on distributed cloud architectures (GCP/Azure), and in formalizing technical uncertainty for federal scientific audits (SR\&DE).
+
+%----------- EDUCATION (Strategic Placement: Top for Research/Finance) -----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mila - Quebec AI Institute / University of Montreal}{Montreal, Canada}
+      {M.Sc. in Computer Science - Artificial Intelligence}{2023 -- 2024}
+      \resumeItemListStart
+        \item \small Focus: Deep Learning, Reinforcement Learning, Generative Models, and State Representation Learning.
+      \resumeItemListEnd
+    \resumeSubheading
+      {Laval University}{Quebec City, Canada}
+      {M.Sc. in Computer Science - Artificial Intelligence}{2020 -- 2023}
+    \resumeSubheading
+      {ECE Paris (Graduate School of Engineering)}{Paris, France}
+      {Engineering Degree - CS \& Information Systems Security}{2019 -- 2022}
+  \resumeSubHeadingListEnd
+
+%----------- TECHNICAL SKILLS -----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Frameworks}{: Python (Expert), JAX/Flax, PyTorch, C++ (Debugging/Reading), SQL, Bash/Unix.} \\
+     \textbf{ML & Research}{: Reinforcement Learning (PPO, SAC, MuZero), World Models, JEPA-style learning, State Representation Learning, Transformers, RAG.} \\
+     \textbf{Infrastructure \& DevOps}{: GCP (Vertex AI, GKE), Azure (OpenAI Service, AI Search), Docker, Kubernetes, Slurm, Git, CI/CD.} \\
+     \textbf{Research Interests}{: World Models, Optimal Control, Differentiable Environments, Orbital Mechanics (active exploration).}
+    }}
+ \end{itemize}
+
+%----------- EXPERIENCE -----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI Engineer / ML Consultant}{2019 -- Present}
+      {AI Global Pros}{Montreal, Canada}
+      \resumeItemListStart
+        \item \textbf{Technical Formalization \& Scientific Audit (RS\&DE):} Authored rigorous technical documentation justifying technological advancements in GAN and RL architectures. Defended experimental methodologies against federal auditors to secure \textbf{\$1.1M+} in research tax credits, successfully overturning prior rejections through technical authority.
+        \item \textbf{Production RAG Architecture (Camions BL):} Designed and deployed a scalable RAG assistant on Azure. Implemented complex retrieval logic for repair order analysis, resulting in a \textbf{37\% increase} in operational efficiency and significant reduction in diagnostic cognitive load.
+        \item \textbf{High-Dimensional Forecasting (NAPA Auto Parts):} Built a GCP-native forecasting platform predicting demand for \textbf{2,000,000+} customer-product pairs. Optimized data pipelines and model inference on GKE to provide real-time actionable intelligence to distributed field teams.
+        \item \textbf{Distributed AI Platform (Vidéotron):} Developed containerized forecasting models within a high-throughput Kafka/Kubernetes environment. Ensured robust deployment of ARIMA/XGBoost models for real-time mobile data stream processing.
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  \section{Publications}
+\resumeSubHeadingListStart
+    \item \textbf{L. Maes, Q. Le Lidec, D. Haramati, N. Massaudi, D. Scieur, Y. LeCun, R. Balestriero.} 
+    \textit{"stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation."} 
+    arXiv:2602.08968 [cs.AI], 2026. 
+    \href{https://arxiv.org/abs/2602.08968}{\underline{Link to Paper}}
+\resumeSubHeadingListEnd
+
+%----------- RESEARCH PROJECTS -----------
+\section{Research Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {State Representation Learning for Visual Deep RL}{2024}
+      {Mila Research Institute}{Montreal, Canada}
+      \resumeItemListStart
+        \item Analyzed SOTA methods for learning from high-dimensional visual inputs. Benchmarked generalization capabilities on DMControl tasks, focusing on encoder robustness in non-stationary environments.
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Non-Contrastive Representation Learning Analysis}{2023}
+      {Laval University}{Quebec City, Canada}
+      \resumeItemListStart
+        \item Evaluated SimSiam and Barlow Twins architectures for robotics perception. Investigated collapse prevention mechanisms in the absence of negative pairs, a key factor for sample-efficient robot learning.
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  
+
+\end{document}

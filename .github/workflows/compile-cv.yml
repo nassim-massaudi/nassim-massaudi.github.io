@@ -1,0 +1,30 @@
+name: Compile CV
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'my_cv.tex'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: my_cv.tex
+
+      - name: Move PDF to files/
+        run: mv my_cv.pdf files/CV-general.pdf
+
+      - name: Commit compiled PDF
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-compile CV from LaTeX"
+          file_pattern: files/CV-general.pdf
